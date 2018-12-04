@@ -1,0 +1,30 @@
+[id^=slidebox_]{
+    width:90%;
+    margin:0 auto;
+    overflow-x:hidden;
+    position:relative;
+}
+[id^=slidebox_] .line{
+    width:10000000px;
+    position:relative;
+    left:0;
+    z-index: 0;
+}
+[id^=slidebox_] .parts{
+    display:inline-block;
+}
+[id^=slidebox_] .prev{
+    position:absolute;
+    top:50%;
+    left:0%;
+    z-index: 1;
+}
+[id^=slidebox_] .next{
+    position:absolute;
+    top:50%;
+    right:0%;
+
+}
+.btn{
+
+}
